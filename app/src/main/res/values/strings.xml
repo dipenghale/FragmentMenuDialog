@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FragmentMenuDialog</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_first_fragment">First fragment</string>
+    <string name="hello_second_fragment">Second fragment</string>
+    <string name="mail">Email</string>
+    <string name="upload">Upload</string>
+    <string name="share">Share</string>
+    <string name="dialog_message">Dialog Message</string>
+    <string name="dialog_title">Dialog Title</string>
+</resources>
