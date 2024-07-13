@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button button1 = findViewById(R.id.btn1);
         Button button2 = findViewById(R.id.btn2);
+        Button button3 = findViewById(R.id.btn3);
 
         button1.setOnClickListener(v -> {
             getSupportFragmentManager().beginTransaction()
@@ -60,6 +61,13 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        button3.setOnClickListener(v -> {
+
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragmentcontainer, ThirdFragment.class, null)
+                    .commit();
+
+        });
 
 
         //custom dialog

@@ -8,4 +8,6 @@
     <string name="share">Share</string>
     <string name="dialog_message">Dialog Message</string>
     <string name="dialog_title">Dialog Title</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Third fragment</string>
 </resources>
